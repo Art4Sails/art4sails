@@ -4,28 +4,56 @@
   Use matching image proportions if you want to minimize cropping in the uniform 4:3 grid.
 */
 const PHOTO_LIST = [
-  { src:"images/capelight200.webp", full:"images/capelight.webp", title:"Cape Light", category:"Sloops", location:"l18xh20", alt:"Cape Light" },
-  { src:"images/approachingsails.webp", full:"images/approachingsails.webp", title:"Approaching Sails", category:"Sloops", location:"l20xh22", alt:"Mist and Waves" },
-  { src:"images/perfectday.webp", full:"images/perfectday.webp", title:"Perfect Day", category:"Sloops", location:"l18xh20", alt:"Perfect day to sail" },
-  { src:"images/racingsails.webp", full:"images/racingsails.webp", title:"Racing Sails", category:"Schooners", location:"l20xh24", alt:"Racing to the horizon" },
-  { src:"images/safeharbor.webp", full:"images/safeharbor.webp", title:"Sails at rest", category:"Sloops", location:"l18xh20 ", alt:"Ships at rest" },
-  { src:"images/squaredrigged.webp", full:"images/squaredrigged.webp", title:"Square Rigged", category:"Sloops", location:"l18xh20 ", alt:"Old quare rigged ship" },
-  { src:"images/gaffrigged.webp", full:"images/gaffrigged.webp", title:"Gaff Rigged", category:"Sloops", location:"500jpg", alt:"Old gaff rigged ship" },
-  { src:"images/fadeingsun.webp", full:"images/fadeingsun.webp", title:"Fadeing Sun", category:"Schooners", location:"l20xh24", alt:"Sun goes down after day on the water" },
+
+  {src:"images/capelight200.webp", full:"images/capelight.webp", title:"Cape Light", category:"Sloops", location:"l18xh20", alt:"Cape Light" },
+  {src:"images/approachingsails.webp", full:"images/approachingsails.webp", title:"Approaching Sails", category:"Sloops", location:"l20xh22", alt:"Mist and Waves" },
+  {src:"images/perfectday.webp", full:"images/perfectday.webp", title:"Perfect Day", category:"Sloops", location:"l18xh20", alt:"Perfect day to sail" },
+  {src:"images/racingsails.webp", full:"images/racingsails.webp", title:"Racing Sails", category:"Schooners", location:"l20xh24", alt:"Racing to the horizon" },
+  
+  {src:"images/BigFlower.webp", full:"images/BigFlower.webp", title:"Big Flower", category:"Gardens", location:"l18xh20", alt:"BigFlower" },
+  {src:"images/safeharbor.webp", full:"images/safeharbor.webp", title:"Sails at rest", category:"Sloops", location:"l18xh20 ", alt:"Ships at rest" },
+  {src:"images/squaredrigged.webp", full:"images/squaredrigged.webp", title:"Square Rigged", category:"Sloops", location:"l18xh20 ", alt:"Old quare rigged ship" },
+  {src:"images/gaffrigged.webp", full:"images/gaffrigged.webp", title:"Gaff Rigged", category:"Sloops", location:"500jpg", alt:"Old gaff rigged ship" },
+  
+  {src:"images/fadeingsun.webp", full:"images/fadeingsun.webp", title:"Fading Sun", category:"Schooners", location:"l20xh24", alt:"Sun goes down after day on the water" },
   {src:"images/beachcruiseI.webp", full:"images/beachcruiseI.webp", title:"Beach Cruise", category:"Sloops", location:"l18xh20", alt:"Cruise along the shore" },
-  { src:"images/beachcruiseII.webp", full:"images/beachcruiseII.webp", title:"Beach Cruise II", category:"Schooners", location:"l20xh24 ", alt:"Cruise along the shore" },
+  {src:"images/beachcruiseII.webp", full:"images/beachcruiseII.webp", title:"Beach Cruise II", category:"Schooners", location:"l20xh24 ", alt:"Cruise along the shore" },
+  {src:"images/BigFlowers2.webp", full:"images/BigFlowers2.webp", title:"Big Flowers II", category:"Gardens", location:"l18xh20", alt:"Big Flowers II" },
   
   {src:"images/seasquall_IIbig.webp", full:"images/seasquall_IIbig.webp", title:"Sea Squall", category:"Sloops", location:"l18xh20", alt:"Storm at Sea" },
-
   {src:"images/seastorm.webp", full:"images/seastorm.webp", title:"Sea Storm", category:"Sloops", location:"l18xh20", alt:"Rough Weather" },
-
-  {src:"images/stormking.webp", full:"images/stormking.webp", title:"Storm King", category:"Sloops", location:"l18xh20", alt:"Rough Sailing" } ,
+  {src:"images/stormking.webp", full:"images/stormking.webp", title:"Storm King", category:"Sloops", location:"l18xh20", alt:"Rough Sailing" },
+  {src:"images/BigFlowersSmall.webp", full:"images/BigFlowersSmall.webp", title:"Big Flowers", category:"Gardens", location:"l20xh24", alt:"Big Flowers" },  
   
-   {src:"images/yachtrace.webp", full:"images/yachtrace.webp", title:"Yacht Race", category:"Sloops", location:"l18xh20", alt:"Storm at Sea" },
-
+  {src:"images/yachtrace.webp", full:"images/yachtrace.webp", title:"Yacht Race", category:"Sloops", location:"l18xh20", alt:"Storm at Sea" },
   {src:"images/yachtraceII.webp", full:"images/yachtraceII.webp", title:"Yacht Race II", category:"Schooners", location:"l20xh24", alt:"Yacht Race II" },
+  {src:"images/boathouse.webp", full:"images/boathouse.webp", title:"Boat House", category:"Sloops", location:"l18xh20", alt:"Rough Sailing" },
+  {src:"images/SummerGarden_II.webp", full:"images/SummerGarden_II.webp", title:"SSummerGarden II", category:"Gardens", location:"l18xh20", alt:"SummerGarden_II" },  
+  
+  {src:"images/BeachGrass.webp", full:"images/BeachGrass.webp", title:"Beach Grass", category:"Sloops", location:"l18xh20", alt:"Beach Grass" },
+  {src:"images/Brooklyn_Bridge_II.webp", full:"images/Brooklyn_Bridge_II.webp", title:"Brooklyn Bridge II", category:"Miscellaneous", location:"l18xh20", alt:"Brooklyn Bridge II" },
+  {src:"images/BrooklynBridge.webp", full:"images/BrooklynBridge.webp", title:"Brooklyn Bridge", category:"Miscellaneous", location:"l18xh20", alt:"Brooklyn Bridge" },
+  {src:"images/FishingYawl.webp", full:"images/FishingYawl.webp", title:"Fishing Ketch", category:"Ketchs", location:"l18xh20", alt:"Fishing Ketch" },
+  
+  {src:"images/FlowerPot2.webp", full:"images/FlowerPot2.webp", title:"Flower Pot II", category:"Gardens", location:"l20xh24 ", alt:"Flower Pot II" }, 
+  {src:"images/FogBank_II.webp", full:"images/FogBank_II.webp", title:"Fog Bank II", category:"Sloops", location:"l18xh20", alt:"Fog Bank II" },
+  {src:"images/FogBank_III.webp", full:"images/FogBank_III.webp", title:"FogBank III", category:"Sloops", location:"l18xh20", alt:"FogBank III" },
+  {src:"images/Bouquet_I.webp", full:"images/Bouquet_I.webp", title:"Bouquet I", category:"Gardens", location:"l18xh20 ", alt:"Bouquet I" },
 
-  {src:"images/boathouse.webp", full:"images/boathouse.webp", title:"Boat House", category:"Sloops", location:"l18xh20", alt:"Rough Sailing" } 
+  {src:"images/GentleSurf.webp", full:"images/GentleSurf.webp", title:"Gentle Surf", category:"Sloops", location:"l18xh20", alt:"Gentle Surf" },
+  {src:"images/Harbor.webp", full:"images/Harbor.webp", title:"Harbor", category:"Sloops", location:"l18xh20", alt:"Harbor" },
+  {src:"images/Klimt.webp", full:"images/Klimt.webp", title:"Klimt", category:"Miscellaneous", location:"l18xh20", alt:"Harbor" },
+  {src:"images/Matisse_II.webp", full:"images/Matisse_II.webp", title:"Matisse II", category:"Miscellaneous", location:"l18xh20", alt:"Matisse II" },
+  
+  {src:"images/vangogh1.webp", full:"images/vangogh1.webp", title:"Vangogh", category:"Miscellaneous", location:"l20xh24", alt:"Vangogh" },
+  {src:"images/SummerGarden_I.webp", full:"images/SummerGarden_I.webp", title:"SummerGarden I", category:"Gardens", location:"l20xh24", alt:"SummerGarden_I"},   
+  {src:"images/Umbrellas.webp", full:"images/Umbrellas.webp", title:"Umbrellas", category:"Ketchs", location:"l18xh20", alt:"Umbrellas" },
+  {src:"images/Bouquet_II.webp", full:"images/Bouquet_II.webp", title:"Bouquet II", category:"Gardens", location:"l18xh20 ", alt:"Bouquet II" },  
+   
+ {src:"images/SurfsUp_II.webp", full:"images/SurfsUp_II.webp", title:"SurfsUp II", category:"Ketchs", location:"l18xh20", alt:"SurfsUp II" },
+  {src:"images/SunsetBeach_II.webp", full:"images/SunsetBeach_II.webp", title:"Sunset Beach II", category:"Ketchs", location:"l18xh20", alt:"Sunset Beach II" },
+  {src:"images/SnowSquall.webp", full:"images/SnowSquall.webp", title:"Snow Squall", category:"Ketchs", location:"l18xh20", alt:"Snow Squall" }, 
+  {src:"images/JazzAge.webp", full:"images/JazzAge.webp", title:"Jazz Age", category:"Miscellaneous", location:"l20xh24", alt:"Jazz Age" }
   
 ];
 
