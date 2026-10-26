@@ -13,7 +13,7 @@ const PHOTO_LIST = [
   {src:"images/BigFlower.webp", full:"images/BigFlower.webp", title:"Big Flower", category:"Gardens", location:"l18xh20", alt:"BigFlower" },
   {src:"images/safeharbor.webp", full:"images/safeharbor.webp", title:"Sails at rest", category:"Sloops", location:"l18xh20 ", alt:"Ships at rest" },
   {src:"images/squaredrigged.webp", full:"images/squaredrigged.webp", title:"Square Rigged", category:"Sloops", location:"l18xh20 ", alt:"Old quare rigged ship" },
-  {src:"images/gaffrigged.webp", full:"images/gaffrigged.webp", title:"Gaff Rigged", category:"Sloops", location:"500jpg", alt:"Old gaff rigged ship" },
+  {src:"images/gaffrigged.webp", full:"images/gaffrigged.webp", title:"Gaff Rigged", category:"Sloops", location:"l18xh20", alt:"Old gaff rigged ship" },
   
   {src:"images/fadeingsun.webp", full:"images/fadeingsun.webp", title:"Fading Sun", category:"Schooners", location:"l20xh24", alt:"Sun goes down after day on the water" },
   {src:"images/beachcruiseI.webp", full:"images/beachcruiseI.webp", title:"Beach Cruise", category:"Sloops", location:"l18xh20", alt:"Cruise along the shore" },
