@@ -17,7 +17,7 @@ a { color:inherit; text-decoration:none; }
 
 .hero-copy { width:100%; max-width:var(--max); margin:auto;padding:0px ; text-shadow:0 1px 12px rgba(0,0,0,.25); }
 /*  padding:22px clamp(10px,2vw,30px) */
-.hero-copy p { font-size:clamp(1rem,1.2vw,1.5rem); letter-spacing:.22em; margin:30px 50px 30px; }
+.hero-copy p { font-size:clamp(.9rem,1.2vw,1.0rem); letter-spacing:.22em; margin:30px 50px 30px; }
 .hero-copy p span { padding:1.5em; opacity:.8; }
 
 .gallery-section { max-width:var(--max); margin:auto; padding:26px clamp(20px,4vw,64px) 86px; }
